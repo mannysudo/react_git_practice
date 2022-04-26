@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import HomeHeader from './components/HomeHeader'
 
 function App() {
   const [counter, setCounter] = useState(() => {
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div>
+        <HomeHeader/>
         <button onClick={decrementCount}>-</button>
         <span> {counter} </span>
         <button onClick={incrementCount}>+</button>

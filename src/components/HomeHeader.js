@@ -1,7 +1,7 @@
 export default function HomeHeader() {
     return(
         <div>
-            <title>A New Counter</title>
+            <h1>A New Counter</h1>
         </div>
     );
 }
